@@ -1,15 +1,11 @@
 # Advanced Web Technology Lab
 
-Each project lives in its own folder.
+This repository contains my Advanced Web Technology lab tasks. Each task is kept in its own folder.
 
-- [Course Management REST API](./course-management-rest-api/) — NestJS API project.
+## Lab Tasks
 
-## Run the API
+| Folder | What the name means | What it does |
+| --- | --- | --- |
+| [course-management-rest-api](./course-management-rest-api/) | A course management API lets an app send requests to view, add, update, or delete courses. REST describes a way to organize these requests using HTTP methods like GET and POST. | Uses NestJS and TypeScript to practise course routes, controllers, and services. Currently returns sample text messages without saving course data. |
 
-```sh
-cd course-management-rest-api
-npm install
-npm run start:dev
-```
-
-Add future projects as folders alongside `course-management-rest-api/`.
+More lab task folders will be added as I complete them.
